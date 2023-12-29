@@ -2,6 +2,13 @@ import Header from '../Header'
 import './index.css'
 
 const Home = () => (
+  // step 4
+  // [instead of these code ,we are handling through Protected Route (Wrapper Route)
+  // due to this we don't write same code again and again]
+  // const jwtToken = Cookies.get('jwt_token')
+  // if (jwtToken === undefined){
+  //     return <Redirect to = "/login" />
+  // }
   <>
     <Header />
     <div className="home-container">
